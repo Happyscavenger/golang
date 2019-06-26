@@ -5,8 +5,8 @@ import (
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )
-
-const URL = "mongodb://root:Lansi123@dds-uf605bb40eca92541596-pub.mongodb.rds.aliyuncs.com:3717,dds-uf605bb40eca92542332-pub.mongodb.rds.aliyuncs.com:3717/admin?replicaSet=mgset-4720883"
+#mongo数据库链接
+const URL = "xxx"
 
 func main() {
 	session, err := mgo.Dial(URL)
